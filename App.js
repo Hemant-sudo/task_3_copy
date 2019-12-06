@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 import { Text, Image, View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 export default class App extends Component {
   render() {
     return (
@@ -11,13 +11,13 @@ export default class App extends Component {
 
 {/* ======================================================================== */}
 
-       <View style={{flexDirection: 'row', justifyContent: 'space-between',  marginTop: '3%',backgroundColor:'blue' }}>
-        <Text style={{fontSize: 29, fontWeight: 'bold', marginLeft: '6%', backgroundColor:'red'}}>Street Meat</Text>
+       <View style={{flexDirection: 'row', justifyContent: 'space-between',  marginTop: '3%', }}>
+        <Text style={{fontSize: 18, backgroundColor:'red', fontWeight: 'bold', marginLeft: '6%', height: '20%'  }}>Street Meat</Text>
 
         
         <View  style={{flexDirection: 'column', }} >
-        <Text style={{marginRight: 20}}>11/09/2019</Text>
-        <Text style={{marginLeft: 11, marginTop:8}}>09:30 pm</Text>
+        <Text style={{marginRight: 20,}}>11/09/2019</Text>
+        <Text style={{marginLeft: 11, marginTop:8,}}>09:30 pm</Text>
           </View>       
       </View> 
 
